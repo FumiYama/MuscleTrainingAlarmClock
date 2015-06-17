@@ -13,6 +13,7 @@
 		321AF5B71B313F2200146114 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321AF5B61B313F2200146114 /* Images.xcassets */; };
 		321AF5BA1B313F2200146114 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321AF5B81B313F2200146114 /* LaunchScreen.xib */; };
 		321AF5C61B313F2300146114 /* MuscleAlarmClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AF5C51B313F2300146114 /* MuscleAlarmClockTests.swift */; };
+		321AF5D01B31ECB300146114 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AF5CF1B31ECB300146114 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		321AF5BF1B313F2300146114 /* MuscleAlarmClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleAlarmClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321AF5C41B313F2300146114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321AF5C51B313F2300146114 /* MuscleAlarmClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleAlarmClockTests.swift; sourceTree = "<group>"; };
+		321AF5CF1B31ECB300146114 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				321AF5B61B313F2200146114 /* Images.xcassets */,
 				321AF5B81B313F2200146114 /* LaunchScreen.xib */,
 				321AF5AD1B313F2200146114 /* Supporting Files */,
+				321AF5CF1B31ECB300146114 /* MainViewController.swift */,
 			);
 			path = MuscleAlarmClock;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321AF5D01B31ECB300146114 /* MainViewController.swift in Sources */,
 				321AF5B21B313F2200146114 /* ViewController.swift in Sources */,
 				321AF5B01B313F2200146114 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				321AF5CB1B313F2300146114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321AF5CC1B313F2300146114 /* Build configuration list for PBXNativeTarget "MuscleAlarmClockTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				321AF5CE1B313F2300146114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
