@@ -14,6 +14,8 @@
 		321AF5BA1B313F2200146114 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321AF5B81B313F2200146114 /* LaunchScreen.xib */; };
 		321AF5C61B313F2300146114 /* MuscleAlarmClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AF5C51B313F2300146114 /* MuscleAlarmClockTests.swift */; };
 		321AF5D01B31ECB300146114 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AF5CF1B31ECB300146114 /* MainViewController.swift */; };
+		32F906F41B32754800D3A8AB /* MTAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F906F31B32754800D3A8AB /* MTAL.png */; };
+		32F906FA1B32874700D3A8AB /* Twitter_bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F906F91B32874700D3A8AB /* Twitter_bird.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		321AF5C41B313F2300146114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321AF5C51B313F2300146114 /* MuscleAlarmClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleAlarmClockTests.swift; sourceTree = "<group>"; };
 		321AF5CF1B31ECB300146114 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		32F906F31B32754800D3A8AB /* MTAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MTAL.png; sourceTree = "<group>"; };
+		32F906F91B32874700D3A8AB /* Twitter_bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_bird.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +88,10 @@
 				321AF5B31B313F2200146114 /* Main.storyboard */,
 				321AF5B61B313F2200146114 /* Images.xcassets */,
 				321AF5B81B313F2200146114 /* LaunchScreen.xib */,
+				32F906F31B32754800D3A8AB /* MTAL.png */,
 				321AF5AD1B313F2200146114 /* Supporting Files */,
 				321AF5CF1B31ECB300146114 /* MainViewController.swift */,
+				32F906F91B32874700D3A8AB /* Twitter_bird.png */,
 			);
 			path = MuscleAlarmClock;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				321AF5B51B313F2200146114 /* Main.storyboard in Resources */,
+				32F906F41B32754800D3A8AB /* MTAL.png in Resources */,
+				32F906FA1B32874700D3A8AB /* Twitter_bird.png in Resources */,
 				321AF5BA1B313F2200146114 /* LaunchScreen.xib in Resources */,
 				321AF5B71B313F2200146114 /* Images.xcassets in Resources */,
 			);
