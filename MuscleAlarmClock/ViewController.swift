@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import QuartzCore
 
 // メイン画面のビューコン
 class ViewController: UIViewController {
-    
+
 
     //ビュー遷移時に呼ばれる
     override func viewDidLoad() {
@@ -26,6 +27,8 @@ class ViewController: UIViewController {
 
     @IBAction func pushButtonNext(sender: UIButton) {
     }
+    
+    
 
 }
 

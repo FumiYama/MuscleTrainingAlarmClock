@@ -13,9 +13,11 @@
 		321AF5B71B313F2200146114 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321AF5B61B313F2200146114 /* Images.xcassets */; };
 		321AF5BA1B313F2200146114 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321AF5B81B313F2200146114 /* LaunchScreen.xib */; };
 		321AF5C61B313F2300146114 /* MuscleAlarmClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AF5C51B313F2300146114 /* MuscleAlarmClockTests.swift */; };
-		321AF5D01B31ECB300146114 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AF5CF1B31ECB300146114 /* MainViewController.swift */; };
 		32F906F41B32754800D3A8AB /* MTAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F906F31B32754800D3A8AB /* MTAL.png */; };
 		32F906FA1B32874700D3A8AB /* Twitter_bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F906F91B32874700D3A8AB /* Twitter_bird.png */; };
+		32F907001B32AAEB00D3A8AB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F906FF1B32AAEB00D3A8AB /* button.png */; };
+		32F90BD51B33047800D3A8AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F90BD41B33047800D3A8AB /* QuartzCore.framework */; };
+		32F90BD91B3307B000D3A8AB /* muscle.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F90BD81B3307B000D3A8AB /* muscle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,11 @@
 		321AF5BF1B313F2300146114 /* MuscleAlarmClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleAlarmClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321AF5C41B313F2300146114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321AF5C51B313F2300146114 /* MuscleAlarmClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleAlarmClockTests.swift; sourceTree = "<group>"; };
-		321AF5CF1B31ECB300146114 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		32F906F31B32754800D3A8AB /* MTAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MTAL.png; sourceTree = "<group>"; };
 		32F906F91B32874700D3A8AB /* Twitter_bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_bird.png; sourceTree = "<group>"; };
+		32F906FF1B32AAEB00D3A8AB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		32F90BD41B33047800D3A8AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		32F90BD81B3307B000D3A8AB /* muscle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muscle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F90BD51B33047800D3A8AB /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 		321AF5A11B313F2200146114 = {
 			isa = PBXGroup;
 			children = (
+				32F90BD41B33047800D3A8AB /* QuartzCore.framework */,
 				321AF5AC1B313F2200146114 /* MuscleAlarmClock */,
 				321AF5C21B313F2300146114 /* MuscleAlarmClockTests */,
 				321AF5AB1B313F2200146114 /* Products */,
@@ -88,10 +94,11 @@
 				321AF5B31B313F2200146114 /* Main.storyboard */,
 				321AF5B61B313F2200146114 /* Images.xcassets */,
 				321AF5B81B313F2200146114 /* LaunchScreen.xib */,
-				32F906F31B32754800D3A8AB /* MTAL.png */,
-				321AF5AD1B313F2200146114 /* Supporting Files */,
-				321AF5CF1B31ECB300146114 /* MainViewController.swift */,
 				32F906F91B32874700D3A8AB /* Twitter_bird.png */,
+				32F906FF1B32AAEB00D3A8AB /* button.png */,
+				32F906F31B32754800D3A8AB /* MTAL.png */,
+				32F90BD81B3307B000D3A8AB /* muscle.png */,
+				321AF5AD1B313F2200146114 /* Supporting Files */,
 			);
 			path = MuscleAlarmClock;
 			sourceTree = "<group>";
@@ -184,6 +191,7 @@
 			knownRegions = (
 				en,
 				Base,
+				English,
 			);
 			mainGroup = 321AF5A11B313F2200146114;
 			productRefGroup = 321AF5AB1B313F2200146114 /* Products */;
@@ -201,7 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F90BD91B3307B000D3A8AB /* muscle.png in Resources */,
 				321AF5B51B313F2200146114 /* Main.storyboard in Resources */,
+				32F907001B32AAEB00D3A8AB /* button.png in Resources */,
 				32F906F41B32754800D3A8AB /* MTAL.png in Resources */,
 				32F906FA1B32874700D3A8AB /* Twitter_bird.png in Resources */,
 				321AF5BA1B313F2200146114 /* LaunchScreen.xib in Resources */,
@@ -223,7 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				321AF5D01B31ECB300146114 /* MainViewController.swift in Sources */,
 				321AF5B21B313F2200146114 /* ViewController.swift in Sources */,
 				321AF5B01B313F2200146114 /* AppDelegate.swift in Sources */,
 			);
@@ -352,8 +361,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MuscleAlarmClock/CorePlot_1.4/Binaries/MacOS",
+				);
 				INFOPLIST_FILE = MuscleAlarmClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MuscleAlarmClock/CorePlot_1.4/Binaries/iOS",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -362,8 +379,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MuscleAlarmClock/CorePlot_1.4/Binaries/MacOS",
+				);
 				INFOPLIST_FILE = MuscleAlarmClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MuscleAlarmClock/CorePlot_1.4/Binaries/iOS",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
