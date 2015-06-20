@@ -40,6 +40,9 @@
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="a3u-Gi-UCA" kind="show" id="TK9-cA-lWa"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Starships" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWg-EH-aCL">
                                 <rect key="frame" x="43" y="332" width="316" height="37"/>
@@ -76,7 +79,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtD-Wu-xC6">
-                                <rect key="frame" x="216" y="293" width="57" height="27"/>
+                                <rect key="frame" x="216" y="293" width="57" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -89,6 +92,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="fes-1X-bYW"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="artist" destination="jHm-t2-ICc" id="swt-Ju-bxZ"/>
+                        <outlet property="day" destination="dH4-oY-hcH" id="Sbi-sF-8FH"/>
+                        <outlet property="month" destination="0o9-O1-9sV" id="qK1-gr-usN"/>
+                        <outlet property="muscle" destination="tFT-4g-lRe" id="pb0-Ko-cGK"/>
+                        <outlet property="music" destination="vWg-EH-aCL" id="QeT-7p-3xJ"/>
+                        <outlet property="week" destination="lWt-oW-Pf0" id="EBv-x7-kxK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -173,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lfS-hZ-Hcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-612.5" y="1126.5"/>
+            <point key="canvasLocation" x="-1106.5" y="742.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Yqk-Ap-PJ8">
@@ -233,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hCR-Vq-TWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="729.5" y="306.5"/>
+            <point key="canvasLocation" x="462.5" y="306.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="e4I-fm-oWh">
@@ -267,7 +278,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TBJ-h1-2kF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1111.5" y="306.5"/>
+            <point key="canvasLocation" x="425.5" y="-511.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="i46-o5-REa">
@@ -329,7 +340,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MgE-Bp-XKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-216.5" y="1126.5"/>
+            <point key="canvasLocation" x="-732.5" y="748.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kuJ-IJ-Fa4">
@@ -359,13 +370,10 @@
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="JfI-HV-IGx"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pln-m3-FKY">
-                                <rect key="frame" x="109" y="129" width="228" height="28"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcD-RM-bW3">
                                 <rect key="frame" x="8" y="522" width="89" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -439,21 +447,30 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pln-m3-FKY">
+                                <rect key="frame" x="131" y="126" width="228" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ckA-GC-oiF">
-                                <rect key="frame" x="0.0" y="168" width="375" height="162"/>
+                                <rect key="frame" x="0.0" y="178" width="375" height="162"/>
                                 <date key="date" timeIntervalSinceReferenceDate="456300132.18949902">
                                     <!--2015-06-18 06:02:12 +0000-->
                                 </date>
                             </datePicker>
                         </subviews>
-                        <color key="backgroundColor" white="0.052914268092105268" alpha="0.95000000000000007" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.15077611019736842" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="v3l-JH-59V"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="dateSetting" destination="ckA-GC-oiF" id="Dnd-Yc-7dt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tN3-uh-DOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="308.5" y="306.5"/>
+            <point key="canvasLocation" x="29.5" y="1189.5"/>
         </scene>
     </scenes>
     <resources>
@@ -461,6 +478,6 @@
         <image name="muscle.png" width="125" height="125"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1ZD-Bl-oJT"/>
+        <segue reference="JfI-HV-IGx"/>
     </inferredMetricsTieBreakers>
 </document>

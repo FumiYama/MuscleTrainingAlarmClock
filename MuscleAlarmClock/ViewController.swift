@@ -13,6 +13,17 @@ import QuartzCore
 class ViewController: UIViewController {
 
 
+    @IBOutlet weak var week: UILabel!
+    @IBOutlet weak var month: UILabel!
+    @IBOutlet weak var day: UILabel!
+    var muscleArray = ["Sit-Up", "Push-Up"]
+//    @IBOutlet weak var timesNumber: UILabel!
+    
+    @IBOutlet weak var music: UILabel!
+    @IBOutlet weak var artist: UILabel!
+    
+    
+    
     //ビュー遷移時に呼ばれる
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,10 +36,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func pushButtonNext(sender: UIButton) {
-    }
-    
-    
+    //hello
 
 }
 
